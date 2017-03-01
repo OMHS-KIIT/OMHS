@@ -42,8 +42,7 @@ $(".next").click(function(){
 	});
 });
 
-function prev()
-{$(".previous").click(function(){
+$(".previous").click(function(){
 	if(animating) return false;
 	animating = true;
 	
@@ -77,7 +76,7 @@ function prev()
 		easing: 'easeInOutBack'
 	});
 });
-}
+
 $(".submit").click(function(){
 	return false;
 })
