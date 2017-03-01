@@ -1,5 +1,5 @@
 /*custom font*/
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /*basic reset*/
 * {margin: 0; padding: 0;}
@@ -55,6 +55,12 @@ body {
 	color: #2C3E50;
 	font-size: 13px;
 }
+#msform input.invalid, #msform textarea.invalid{
+	border: 2px solid red;
+}
+#msform input.valid, #msform textarea.valid{
+	border: 2px solid #2C3E50;
+}
 /*buttons*/
 #msform .action-button {
 	width: 100px;
@@ -67,6 +73,7 @@ body {
 	padding: 10px 5px;
 	margin: 10px 5px;
 }
+
 #msform .action-button:hover, #msform .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
