@@ -1,7 +1,7 @@
 function formValidation() {
-    var x = document.forms["myForm"]["fname"].value;
+    var x = document.forms["msform"]["fname"].value;
     if (x == "") {
         alert("Name must be filled out");
-        return false;
+        location.reload();
     }
 }
